@@ -47,5 +47,28 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
-	
+
+  <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+    https://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <servers>
+      <server>
+        <id>fortilabsappsphere</id>
+        <username>fortilabsappsphere</username>
+        <password>gmgh6bivecxl2jedkkkktgvrn73og5gu5xinzoiohsfxer5zjzva</password>
+      </server>
+    </servers>
+  </settings>
+
+  <repository>
+    <id>fortilabsappsphere</id>
+    <url>https://pkgs.dev.azure.com/fortilabsappsphere/_packaging/fortilabsappsphere/maven/v1</url>
+    <releases>
+      <enabled>true</enabled>
+    </releases>
+    <snapshots>
+      <enabled>true</enabled>
+    </snapshots>
+  </repository>
 </project>
